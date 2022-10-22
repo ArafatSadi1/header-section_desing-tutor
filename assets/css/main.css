@@ -112,7 +112,6 @@ button {
 }
 ._header_wrap {
   background-color: var(--bg1);
-  margin-right: 12px;
   padding-bottom: 150px;
 }
 ._header_nav {
@@ -135,16 +134,18 @@ button {
   font-size: 16px;
   color: var(--color1) !important;
   transition: 0.2s all ease-in-out;
+  margin: auto;
 }
 ._header_navbar_itm:hover {
   color: var(--bg2) !important;
 }
-._header_navbar_itm_active {
+._header_navbar_itm::before {
+  position: absolute;
+  content: "";
   width: 6px;
   height: 6px;
   border-radius: 100%;
   background-color: var(--bg2);
-  margin: auto;
 }
 ._header_navbar_r8_ul {
   align-items: center;
@@ -288,11 +289,15 @@ button {
   height: 34px;
 }
 ._header_left_para2 {
-  max-width: 60%;
+  cursor: pointer;
+  max-width: 65%;
   font-family: "Be Vietnam Pro";
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
+  color: var(--color1);
+}
+._header_left_para2:hover {
   color: var(--color1);
 }
 ._header_left_para2:hover img {
@@ -375,9 +380,10 @@ button {
   font-size: 14px;
   color: var(--color5);
 }
-._header_tutor_position_img_sp {
+._header_tutor_position_btn {
   width: 40px;
   height: 40px;
+  border: none;
   border-radius: 100%;
   background-color: var(--bg3);
   display: flex;
@@ -646,7 +652,7 @@ button {
   ._header_tutor_position_txt1 {
     font-size: 12px;
   }
-  ._header_tutor_position_img_sp {
+  ._header_tutor_position_btn {
     width: 35px;
     height: 35px;
   }
@@ -833,7 +839,7 @@ button {
   ._header_tutor_position_txt1 {
     font-size: 10px;
   }
-  ._header_tutor_position_img_sp {
+  ._header_tutor_position_btn {
     width: 30px;
     height: 30px;
   }
@@ -1315,7 +1321,7 @@ button {
   ._header_tutor_position_txt1 {
     font-size: 7px;
   }
-  ._header_tutor_position_img_sp {
+  ._header_tutor_position_btn {
     width: 25px;
     height: 25px;
   }
@@ -1519,7 +1525,7 @@ button {
   ._header_tutor_position_txt1 {
     font-size: 5px;
   }
-  ._header_tutor_position_img_sp {
+  ._header_tutor_position_btn {
     width: 20px;
     height: 20px;
   }

@@ -40,7 +40,6 @@
               <ul class="mx-auto navbar-nav mb-2 mb-lg-0 _header_navbar_ul">
                 <li class="nav-item">
                   <a class="nav-link _header_navbar_itm" href="#">Tutors</a>
-                  <div class="_header_navbar_itm_active"></div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link _header_navbar_itm" href="#">Courses</a>
@@ -121,7 +120,7 @@
                       <button class="_header_r8_btn">Learn More</button>
                     </div>
                   </div>
-                  <a href="#" class="_header_left_review_txt_wrap">
+                  <div class="_header_left_review_txt_wrap">
                     <span class="_header_left_star_sp">
                       <img
                         src="assets/img/star_white.svg"
@@ -129,7 +128,7 @@
                         class="_header_left_star_icon"
                       />
                     </span>
-                    <p class="_header_left_para2">
+                    <a href="#" class="_header_left_para2">
                       Over 5 million students has given a 5 star review to their
                       tutor
                       <span class="_header_left_para2_icon_sp">
@@ -139,8 +138,8 @@
                           class="_header_left_para2_icon"
                         />
                       </span>
-                    </p>
-                  </a>
+                    </a>
+                  </div>
                 </div>
               </div>
               <div class="col-lg-7 col-md-7 col-6">
@@ -148,91 +147,6 @@
                   <div class="splide-slider">
                     <div class="splide__track">
                       <ul class="splide__list">
-                        <li class="splide__slide">
-                          <div class="_header_tutor_card">
-                            <div class="splide__slide__container">
-                              <div class="slide__content">
-                                <span class="_header_tutor_card_img_wrap">
-                                  <img
-                                    src="assets/img/tutor_card_img.png"
-                                    alt=""
-                                    class="_header_tutor_slider_card_img"
-                                  />
-                                </span>
-                                <div class="_header_tutor_position_wrap">
-                                  <span class="_header_tutor_position_txt_sp">
-                                    <p class="_header_tutor_position_txt">
-                                      UI/UX Designer
-                                    </p>
-                                  </span>
-                                  <span class="_header_tutor_position_img_sp">
-                                    <img
-                                      src="assets/img/header_tutor_position_icon.svg"
-                                      alt=""
-                                      class="_header_tutor_position_icon"
-                                    />
-                                  </span>
-                                </div>
-                                <h4 class="_header_tutor_card_txt">
-                                  Steven Smith
-                                </h4>
-                                <div
-                                  class="_header_tutor_card_students_txt_wrapper"
-                                >
-                                  <div
-                                    class="_header_tutor_card_students_txt_wrap"
-                                  >
-                                    <span
-                                      class="_header_tutor_card_students_img_sp"
-                                    >
-                                      <img
-                                        src="assets/img/student_icon.svg"
-                                        alt=""
-                                        class="_header_tutor_card_students_icon"
-                                      />
-                                    </span>
-                                    <p class="_header_tutor_card_students_txt">
-                                      30K+ Students
-                                    </p>
-                                  </div>
-                                  <div
-                                    class="_header_tutor_card_courses_txt_wrap"
-                                  >
-                                    <span
-                                      class="_header_tutor_card_courses_img_sp"
-                                    >
-                                      <img
-                                        src="assets/img/courses_icon.svg"
-                                        alt=""
-                                        class="_header_tutor_card_courses_icon"
-                                      />
-                                    </span>
-                                    <p class="_header_tutor_card_courses_txt">
-                                      15 Courses
-                                    </p>
-                                  </div>
-                                </div>
-                                <div class="_header_tutor_card_ratings_wrap">
-                                  <p class="_header_tutor_card_ratings_txt">
-                                    4.5
-                                  </p>
-                                  <span
-                                    class="_header_tutor_card_rating_icon_sp"
-                                  >
-                                    <img
-                                      src="assets/img/starIcon.svg"
-                                      alt=""
-                                      class="_header_tutor_card_rating_icon"
-                                    />
-                                  </span>
-                                  <p class="_header_tutor_card_ratings_qty_txt">
-                                    (5325)
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
                         <li class="splide__slide">
                           <div class="_header_tutor_card">
                             <div class="splide__slide__container">
@@ -250,13 +164,15 @@
                                       UI/UX Designer
                                     </p>
                                   </span>
-                                  <span class="_header_tutor_position_img_sp">
-                                    <img
-                                      src="assets/img/header_tutor_position_icon.svg"
-                                      alt=""
-                                      class="_header_tutor_position_icon"
-                                    />
-                                  </span>
+                                  <button class="_header_tutor_position_btn">
+                                    <span class="_header_tutor_position_img_sp">
+                                      <img
+                                        src="assets/img/header_tutor_position_icon.svg"
+                                        alt=""
+                                        class="_header_tutor_position_icon"
+                                      />
+                                    </span>
+                                  </button>
                                 </div>
                                 <h4 class="_header_tutor_card_txt">
                                   David Warner
@@ -335,13 +251,102 @@
                                       UI/UX Designer
                                     </p>
                                   </span>
-                                  <span class="_header_tutor_position_img_sp">
+                                  <button class="_header_tutor_position_btn">
+                                    <span class="_header_tutor_position_img_sp">
+                                      <img
+                                        src="assets/img/header_tutor_position_icon.svg"
+                                        alt=""
+                                        class="_header_tutor_position_icon"
+                                      />
+                                    </span>
+                                  </button>
+                                </div>
+                                <h4 class="_header_tutor_card_txt">
+                                  Steven Smith
+                                </h4>
+                                <div
+                                  class="_header_tutor_card_students_txt_wrapper"
+                                >
+                                  <div
+                                    class="_header_tutor_card_students_txt_wrap"
+                                  >
+                                    <span
+                                      class="_header_tutor_card_students_img_sp"
+                                    >
+                                      <img
+                                        src="assets/img/student_icon.svg"
+                                        alt=""
+                                        class="_header_tutor_card_students_icon"
+                                      />
+                                    </span>
+                                    <p class="_header_tutor_card_students_txt">
+                                      30K+ Students
+                                    </p>
+                                  </div>
+                                  <div
+                                    class="_header_tutor_card_courses_txt_wrap"
+                                  >
+                                    <span
+                                      class="_header_tutor_card_courses_img_sp"
+                                    >
+                                      <img
+                                        src="assets/img/courses_icon.svg"
+                                        alt=""
+                                        class="_header_tutor_card_courses_icon"
+                                      />
+                                    </span>
+                                    <p class="_header_tutor_card_courses_txt">
+                                      15 Courses
+                                    </p>
+                                  </div>
+                                </div>
+                                <div class="_header_tutor_card_ratings_wrap">
+                                  <p class="_header_tutor_card_ratings_txt">
+                                    4.5
+                                  </p>
+                                  <span
+                                    class="_header_tutor_card_rating_icon_sp"
+                                  >
                                     <img
-                                      src="assets/img/header_tutor_position_icon.svg"
+                                      src="assets/img/starIcon.svg"
                                       alt=""
-                                      class="_header_tutor_position_icon"
+                                      class="_header_tutor_card_rating_icon"
                                     />
                                   </span>
+                                  <p class="_header_tutor_card_ratings_qty_txt">
+                                    (5325)
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                        <li class="splide__slide">
+                          <div class="_header_tutor_card">
+                            <div class="splide__slide__container">
+                              <div class="slide__content">
+                                <span class="_header_tutor_card_img_wrap">
+                                  <img
+                                    src="assets/img/tutor_card_img.png"
+                                    alt=""
+                                    class="_header_tutor_slider_card_img"
+                                  />
+                                </span>
+                                <div class="_header_tutor_position_wrap">
+                                  <span class="_header_tutor_position_txt_sp">
+                                    <p class="_header_tutor_position_txt">
+                                      UI/UX Designer
+                                    </p>
+                                  </span>
+                                  <button class="_header_tutor_position_btn">
+                                    <span class="_header_tutor_position_img_sp">
+                                      <img
+                                        src="assets/img/header_tutor_position_icon.svg"
+                                        alt=""
+                                        class="_header_tutor_position_icon"
+                                      />
+                                    </span>
+                                  </button>
                                 </div>
                                 <h4 class="_header_tutor_card_txt">
                                   Steven Smith
