@@ -7,12 +7,12 @@ var splide = new Splide(".splide-slider", {
   perMove: 1,
   // for responsive
   breakpoints: {
-    // 991: {
-    //   gap: 18,
-    // },
-    // 767: {
-    //   perPage: 1,
-    // },
+    991: {
+      gap: 20,
+    },
+    767: {
+      perPage: 1,
+    },
   },
 });
 
