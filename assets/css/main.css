@@ -928,7 +928,7 @@ button {
   }
   ._header_direction_icon_sp {
     right: 48%;
-    top: 19%;
+    top: 20%;
   }
   ._header_direction_icon {
     width: 100px;
@@ -1118,16 +1118,25 @@ button {
     height: 50px;
   }
   ._header_left_cont_para {
-    font-size: 7px;
+    font-size: 6px;
     letter-spacing: 2px;
   }
+  ._header_left_cont_img_sp2 {
+    margin-left: -12px;
+  }
+  ._header_left_cont_img_sp3 {
+    margin-left: -12px;
+  }
   ._header_left_cont_img {
-    width: 26px;
-    height: 26px;
+    width: 22px;
+    height: 22px;
   }
   ._header_left_cont_txt {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+  ._header_left_cont_para1 {
+    font-size: 8px;
   }
   ._header_btn_wrap {
     gap: 12px;
@@ -1145,6 +1154,7 @@ button {
   }
   ._header_left_para2 {
     max-width: 70%;
+    font-size: 8px;
   }
   ._header_left_para2_icon {
     width: 12px;
@@ -1215,11 +1225,11 @@ button {
     margin-top: 22px;
   }
   ._header_direction_icon_sp {
-    right: 38%;
-    top: 17%;
+    right: 44%;
+    top: 15%;
   }
   ._header_direction_icon {
-    width: 70px;
+    width: 60px;
     height: 60px;
   }
   ._header_left_cont_para {
@@ -1237,12 +1247,10 @@ button {
     height: 18px;
   }
   ._header_left_cont_txt {
-    max-width: 90%;
     font-size: 24px;
     line-height: 30px;
   }
   ._header_left_cont_para1 {
-    max-width: 90%;
     font-size: 7px;
     line-height: 14px;
   }
@@ -1269,7 +1277,6 @@ button {
     height: 16px;
   }
   ._header_left_para2 {
-    max-width: 65%;
     font-size: 7px;
     line-height: 14px;
   }
@@ -1278,7 +1285,7 @@ button {
     height: 8px;
   }
   ._header_tutor_cards_wrapper {
-    width: 108%;
+    width: 100%;
     margin-left: 0%;
   }
   .splide__pagination {
@@ -1288,19 +1295,8 @@ button {
   .splide__pagination__page {
     margin: 0 8px;
   }
-  ._header_scroll_down_btn_wrap {
-    right: 0;
-  }
-  ._header_scroll_down_btn {
-    font-size: 6px;
-    letter-spacing: 1px;
-  }
-  ._header_scroll_down_icon {
-    width: 8px;
-    height: 6px;
-  }
   ._header_tutor_slider_card_img {
-    height: 145px;
+    height: 185px;
   }
   ._header_tutor_position_wrap {
     margin-top: 10px;
@@ -1368,6 +1364,17 @@ button {
   ._header_tutor_card_ratings_qty_txt {
     font-size: 8px;
   }
+  ._header_scroll_down_btn_wrap {
+    right: 0;
+  }
+  ._header_scroll_down_btn {
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  ._header_scroll_down_icon {
+    width: 8px;
+    height: 6px;
+  }
   ._header_about_box_wrap {
     padding: 8px;
     gap: 8px;
@@ -1400,6 +1407,190 @@ button {
   }
 }
 @media only screen and (max-width: 420px) {
+  ._header_nav {
+    padding-top: 15px;
+  }
+  ._header_row_wrap {
+    padding: 46px 0;
+  }
+  ._header_direction_icon_sp {
+    right: 46%;
+    top: 17%;
+  }
+  ._header_direction_icon {
+    width: 50px;
+    height: 30px;
+  }
+  ._header_left_cont_para {
+    font-size: 3px;
+    letter-spacing: 1px;
+  }
+  ._header_left_cont_img_sp2 {
+    margin-left: -10px;
+  }
+  ._header_left_cont_img_sp3 {
+    margin-left: -10px;
+  }
+  ._header_left_cont_img {
+    width: 14px;
+    height: 14px;
+  }
+  ._header_left_cont_txt {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 4px 0 8px 0;
+  }
+  ._header_left_cont_para1 {
+    font-size: 5px;
+    line-height: 10px;
+  }
+  ._header_btn_wrap {
+    gap: 10px;
+    margin: 10px 0 16px 0;
+  }
+  ._header_left_btn {
+    width: 55px;
+    height: 25px;
+    font-size: 5px;
+  }
+  ._header_r8_btn {
+    width: 55px;
+    height: 25px;
+    font-size: 5px;
+  }
+  ._header_left_star_sp {
+    width: 25px;
+    height: 25px;
+  }
+  ._header_left_star_icon {
+    width: 12px;
+    height: 12px;
+  }
+  ._header_left_para2 {
+    max-width: 65%;
+    font-size: 5px;
+    line-height: 10px;
+  }
+  ._header_left_para2_icon {
+    width: 10px;
+    height: 6px;
+  }
+  ._header_tutor_cards_wrapper {
+    width: 108%;
+    margin-left: 0%;
+  }
+  .splide__pagination {
+    margin-top: 15px;
+    margin-right: 0px;
+  }
+  .splide__pagination__page {
+    width: 8px;
+    height: 8px;
+    margin: 0 6px;
+  }
+  ._header_scroll_down_btn_wrap {
+    right: 0;
+  }
+  ._header_scroll_down_btn {
+    font-size: 4px;
+    letter-spacing: 1px;
+  }
+  ._header_scroll_down_icon {
+    width: 6px;
+    height: 4px;
+  }
+  ._header_tutor_slider_card_img {
+    height: 125px;
+  }
+  ._header_tutor_position_wrap {
+    margin-top: 10px;
+  }
+  ._header_tutor_position_txt_sp {
+    width: 50px;
+    height: 20px;
+  }
+  ._header_tutor_position_txt {
+    font-size: 5px;
+  }
+  ._header_tutor_position_txt_sp1 {
+    width: 50px;
+    height: 20px;
+  }
+  ._header_tutor_position_txt1 {
+    font-size: 5px;
+  }
+  ._header_tutor_position_img_sp {
+    width: 20px;
+    height: 20px;
+  }
+  ._header_tutor_position_icon {
+    width: 12px;
+    height: 10px;
+  }
+  ._header_tutor_card_txt {
+    font-size: 12px;
+  }
+  ._header_tutor_card_students_txt_wrapper {
+    gap: 12px;
+  }
+  ._header_tutor_card_students_icon {
+    width: 8px;
+    height: 8px;
+  }
+  ._header_tutor_card_students_txt {
+    font-size: 6px;
+  }
+  ._header_tutor_card_courses_icon {
+    width: 8px;
+    height: 8px;
+  }
+  ._header_tutor_card_courses_txt {
+    font-size: 6px;
+  }
+  ._header_tutor_card_ratings_txt {
+    font-size: 6px;
+  }
+  ._header_tutor_card_rating_icon {
+    width: 7px;
+    height: 7px;
+  }
+  ._header_tutor_card_ratings_qty_txt {
+    font-size: 6px;
+  }
+  ._header_about_box_wrap {
+    padding: 8px;
+    gap: 8px;
+  }
+  ._header_about_img {
+    width: 80px;
+    height: 80px;
+  }
+  ._header_about_txt_para {
+    font-size: 3px;
+    letter-spacing: 1px;
+  }
+  ._header_about_txt {
+    max-width: 95%;
+    font-size: 8px;
+    line-height: 12px;
+    margin: 3px 0 4px 0;
+  }
+  ._header_about_play_btn_icon_sp {
+    width: 18px;
+    height: 18px;
+  }
+  ._header_about_play_btn_icon {
+    width: 7px;
+    height: 7px;
+  }
+  ._header_about_box_icon_sp {
+    right: 10px;
+    bottom: 10px;
+  }
+  ._header_about_icon {
+    width: 20px;
+    height: 20px;
+  }
 }
 @media only screen and (max-width: 375px) {
 }
