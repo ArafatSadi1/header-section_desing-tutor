@@ -357,7 +357,7 @@ button {
   align-items: center;
   justify-content: space-between;
 }
-._header_tutor_position_txt_sp {
+._header_tutor_card_left_position_txt_sp {
   width: 121px;
   height: 40px;
   background: #f0fcff;
@@ -366,13 +366,13 @@ button {
   align-items: center;
   justify-content: center;
 }
-._header_tutor_position_txt {
+._header_tutor_card_left_position_txt {
   font-family: "Be Vietnam Pro";
   font-weight: 400;
   font-size: 14px;
   color: var(--bg3);
 }
-._header_tutor_position_txt_sp1 {
+._header_tutor_card_r8_position_txt_sp {
   width: 121px;
   height: 40px;
   background: #fff9ec;
@@ -381,7 +381,7 @@ button {
   align-items: center;
   justify-content: center;
 }
-._header_tutor_position_txt1 {
+._header_tutor_card_r8_position_txt {
   font-family: "Be Vietnam Pro";
   font-weight: 400;
   font-size: 14px;
@@ -645,18 +645,18 @@ button {
   ._header_tutor_slider_card_img {
     height: 270px;
   }
-  ._header_tutor_position_txt_sp {
+  ._header_tutor_card_left_position_txt_sp {
     width: 111px;
     height: 35px;
   }
-  ._header_tutor_position_txt {
+  ._header_tutor_card_left_position_txt {
     font-size: 12px;
   }
-  ._header_tutor_position_txt_sp1 {
+  ._header_tutor_card_r8_position_txt_sp {
     width: 111px;
     height: 35px;
   }
-  ._header_tutor_position_txt1 {
+  ._header_tutor_card_r8_position_txt {
     font-size: 12px;
   }
   ._header_tutor_position_btn {
@@ -836,18 +836,18 @@ button {
   ._header_tutor_slider_card_img {
     height: 240px;
   }
-  ._header_tutor_position_txt_sp {
+  ._header_tutor_card_left_position_txt_sp {
     width: 100px;
     height: 32px;
   }
-  ._header_tutor_position_txt {
+  ._header_tutor_card_left_position_txt {
     font-size: 10px;
   }
-  ._header_tutor_position_txt_sp1 {
+  ._header_tutor_card_r8_position_txt_sp {
     width: 100px;
     height: 32px;
   }
-  ._header_tutor_position_txt1 {
+  ._header_tutor_card_r8_position_txt {
     font-size: 10px;
   }
   ._header_tutor_position_btn {
@@ -1026,18 +1026,18 @@ button {
   ._header_tutor_slider_card_img {
     height: 175px;
   }
-  ._header_tutor_position_txt_sp {
+  ._header_tutor_card_left_position_txt_sp {
     width: 85px;
     height: 28px;
   }
-  ._header_tutor_position_txt_sp1 {
+  ._header_tutor_card_r8_position_txt_sp {
     width: 85px;
     height: 28px;
   }
-  ._header_tutor_position_txt {
+  ._header_tutor_card_left_position_txt {
     font-size: 8px;
   }
-  ._header_tutor_position_txt1 {
+  ._header_tutor_card_r8_position_txt {
     font-size: 8px;
   }
   ._header_tutor_card_txt {
@@ -1330,18 +1330,18 @@ button {
   ._header_tutor_position_wrap {
     margin-top: 10px;
   }
-  ._header_tutor_position_txt_sp {
+  ._header_tutor_card_left_position_txt_sp {
     width: 75px;
     height: 25px;
   }
-  ._header_tutor_position_txt {
+  ._header_tutor_card_left_position_txt {
     font-size: 7px;
   }
-  ._header_tutor_position_txt_sp1 {
+  ._header_tutor_card_r8_position_txt_sp {
     width: 75px;
     height: 25px;
   }
-  ._header_tutor_position_txt1 {
+  ._header_tutor_card_r8_position_txt {
     font-size: 7px;
   }
   ._header_tutor_position_btn {
@@ -1532,18 +1532,18 @@ button {
   ._header_tutor_position_wrap {
     margin-top: 10px;
   }
-  ._header_tutor_position_txt_sp {
+  ._header_tutor_card_left_position_txt_sp {
     width: 50px;
     height: 20px;
   }
-  ._header_tutor_position_txt {
+  ._header_tutor_card_left_position_txt {
     font-size: 5px;
   }
-  ._header_tutor_position_txt_sp1 {
+  ._header_tutor_card_r8_position_txt_sp {
     width: 50px;
     height: 20px;
   }
-  ._header_tutor_position_txt1 {
+  ._header_tutor_card_r8_position_txt {
     font-size: 5px;
   }
   ._header_tutor_position_btn {
