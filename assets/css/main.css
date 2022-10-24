@@ -102,7 +102,7 @@ button {
   max-width: 18px;
 }
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 0;
+  padding: 0 0 5px 0;
 }
 /* header section design start */
 ._header_wrapper {
@@ -129,18 +129,17 @@ button {
   gap: 46px;
 }
 ._header_navbar_itm {
+  position: relative;
   font-family: "Be Vietnam Pro";
   font-weight: 400;
   font-size: 16px;
   color: var(--color1) !important;
-  transition: 0.2s all ease-in-out;
   margin: auto;
 }
-._header_navbar_itm:hover {
-  color: var(--bg2) !important;
-}
-._header_navbar_itm::before {
+._header_navbar_itm:hover:before {
   position: absolute;
+  left: 50%;
+  bottom: 0px;
   content: "";
   width: 6px;
   height: 6px;
@@ -152,14 +151,21 @@ button {
   gap: 30px;
 }
 ._header_navbar_left_btn {
+  position: relative;
   font-family: "Be Vietnam Pro";
   font-weight: 600;
   font-size: 16px;
   color: var(--color2) !important;
-  transition: 0.2s all ease-in-out;
 }
-._header_navbar_left_btn:hover {
-  color: var(--bg2) !important;
+._header_navbar_left_btn:hover:before {
+  position: absolute;
+  left: 50%;
+  bottom: 0px;
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background-color: var(--bg2);
 }
 ._header_navbar_r8_btn {
   width: 102px;
@@ -172,6 +178,7 @@ button {
   font-size: 16px;
   color: var(--color3) !important;
   transition: 0.2s all ease-in-out;
+  margin-bottom: 5px;
 }
 ._header_navbar_r8_btn:hover {
   color: var(--bg2) !important;
@@ -720,6 +727,10 @@ button {
     width: 16px;
     height: 16px;
   }
+  ._header_about_box_icon_sp {
+    right: 28px;
+    bottom: 28px;
+  }
 }
 @media only screen and (max-width: 1199px) {
   ._header_wrap {
@@ -912,6 +923,10 @@ button {
     width: 40px;
     height: 40px;
   }
+  ._header_about_box_icon_sp {
+    right: 22px;
+    bottom: 22px;
+  }
 }
 /* Ipad pro */
 @media only screen and (max-width: 991px) {
@@ -1098,6 +1113,10 @@ button {
     width: 36px;
     height: 36px;
   }
+  ._header_about_box_icon_sp {
+    right: 15px;
+    bottom: 15px;
+  }
 }
 /* Ipad/Mobile L */
 @media only screen and (max-width: 767px) {
@@ -1189,15 +1208,15 @@ button {
     gap: 10px;
   }
   ._header_about_img {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
   }
   ._header_about_txt_para {
     font-size: 7px;
   }
   ._header_about_txt {
     max-width: 95%;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
     margin: 4px 0 10px 0;
   }
@@ -1212,6 +1231,10 @@ button {
   ._header_about_icon {
     width: 32px;
     height: 32px;
+  }
+  ._header_about_box_icon_sp {
+    right: 10px;
+    bottom: 10px;
   }
 }
 /* Mobile */
@@ -1394,8 +1417,6 @@ button {
     letter-spacing: 2px;
   }
   ._header_about_txt {
-    max-width: 95%;
-    font-size: 12px;
     line-height: 16px;
     margin: 3px 0 8px 0;
   }
