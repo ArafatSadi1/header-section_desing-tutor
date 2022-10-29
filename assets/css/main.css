@@ -259,7 +259,7 @@ button {
   transition: 0.2s all ease-in-out;
 }
 ._header_left_btn:hover {
-  background-color: #e5043d !important;
+  background-color: var(--bg5) !important;
 }
 ._header_r8_btn {
   width: 188px;
@@ -333,7 +333,7 @@ button {
   border: none;
   width: 12px;
   height: 12px;
-  background: #cab8ac;
+  background: var(--bg4);
   border-radius: 100%;
   margin: 0px 14px;
 }
@@ -360,7 +360,7 @@ button {
 ._header_tutor_card_left_position_txt_sp {
   width: 121px;
   height: 40px;
-  background: #f0fcff;
+  background: var(--bg6);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -375,7 +375,7 @@ button {
 ._header_tutor_card_r8_position_txt_sp {
   width: 121px;
   height: 40px;
-  background: #fff9ec;
+  background: var(--bg7);
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -508,7 +508,7 @@ button {
   align-items: center;
   gap: 30px;
   background-color: var(--color2);
-  border: 1px solid #fec52d;
+  border: 1px solid var(--color6);
   border-radius: 12px;
   box-shadow: 0px 20px 60px rgba(38, 18, 2, 0.1);
   padding: 30px;
@@ -758,11 +758,8 @@ button {
     font-size: 12px;
   }
   ._header_direction_icon_sp {
+    top: 18%;
     right: 50%;
-  }
-  ._header_direction_icon {
-    width: 100px;
-    height: 90px;
   }
   ._header_left_cont_para {
     font-size: 10px;
@@ -952,7 +949,7 @@ button {
     top: 20%;
   }
   ._header_direction_icon {
-    width: 100px;
+    width: 90px;
     height: 70px;
   }
   ._header_left_cont_para {
@@ -1170,20 +1167,18 @@ button {
   ._header_left_btn {
     width: 90px;
     height: 35px;
-    font-size: 10px;
   }
   ._header_r8_btn {
     width: 90px;
     height: 35px;
-    font-size: 10px;
   }
   ._header_left_para2 {
     max-width: 70%;
     font-size: 8px;
   }
   ._header_left_para2_icon {
-    width: 12px;
-    height: 8px;
+    width: 11px;
+    height: 7px;
   }
   ._header_tutor_cards_wrapper {
     width: 100%;
@@ -1261,10 +1256,6 @@ button {
     width: 60px;
     height: 60px;
   }
-  ._header_left_cont_para {
-    font-size: 6px;
-    letter-spacing: 2px;
-  }
   ._header_left_cont_img_sp2 {
     margin-left: -10px;
   }
@@ -1310,8 +1301,8 @@ button {
     line-height: 14px;
   }
   ._header_left_para2_icon {
-    width: 12px;
-    height: 8px;
+    width: 10px;
+    height: 6px;
   }
   ._header_tutor_cards_wrapper {
     width: 100%;
@@ -1472,7 +1463,6 @@ button {
     line-height: 10px;
   }
   ._header_btn_wrap {
-    gap: 10px;
     margin: 10px 0 16px 0;
   }
   ._header_left_btn {
@@ -1499,8 +1489,8 @@ button {
     line-height: 10px;
   }
   ._header_left_para2_icon {
-    width: 10px;
-    height: 6px;
+    width: 9px;
+    height: 5px;
   }
   ._header_tutor_cards_wrapper {
     width: 108%;
@@ -1632,7 +1622,12 @@ button {
   --color3: #ffffff;
   --color4: #545860;
   --color5: #f6b32d;
+  --color6: #fec52d;
   --bg1: #f0e4dc;
   --bg2: #ff2359;
   --bg3: #02bde5;
+  --bg4: #cab8ac;
+  --bg5: #e5043d;
+  --bg6: #f0fcff;
+  --bg7: #fff9ec;
 }
